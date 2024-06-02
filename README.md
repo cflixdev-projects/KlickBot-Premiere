@@ -4,7 +4,7 @@
 
 2. Arbeitsbereich auf Vertikal
 
-3. Keine Fenster verschieben/vergrößern
+3. Keine Fenster vergrößern, verkleinern oder verschieben.
    
 4. Den Hauptmonitor verwenden, falls 2 angeschlossem
    
