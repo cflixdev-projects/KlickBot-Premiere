@@ -58,32 +58,32 @@ def start():
     # klick kreativ
     pyautogui.moveTo(x=472, y=426, )
     pyautogui.click()
-    #
-    # # kreativ - scharf, dnymaik, sättigung
-    # pyautogui.moveTo(x=1318, y=549, )
-    # pyautogui.click()
-    # pyautogui.write('4')
-    #
-    # pyautogui.moveTo(x=1321, y=584, )
-    # pyautogui.click()
-    # pyautogui.write('8')
-    #
-    # pyautogui.moveTo(x=1325, y=613, )
-    # pyautogui.click()
-    # pyautogui.write('104')
-    # pyautogui.press('enter')
-    #
-    # pyautogui.vscroll(5000)
-    #
-    # pyautogui.moveTo( x = 643, y= 359,)
-    # pyautogui.click()
-    # pyautogui.moveTo(y= 610,)
-    #
-    #
-    # pyautogui.mouseDown(button='left', x=880, y=465,)
-    # # runter bringen
-    # pyautogui.moveTo(x=880, y=798,)
-    # # lösen
-    # pyautogui.mouseUp(button='left', x=880, y=798)
-    # pyautogui.moveTo(x=569, y=570, )
-    # pyautogui.click()
+
+    # kreativ - scharf, dnymaik, sättigung
+    pyautogui.moveTo(x=1318, y=549, )
+    pyautogui.click()
+    pyautogui.write('4')
+
+    pyautogui.moveTo(x=1321, y=584, )
+    pyautogui.click()
+    pyautogui.write('8')
+
+    pyautogui.moveTo(x=1325, y=613, )
+    pyautogui.click()
+    pyautogui.write('104')
+    pyautogui.press('enter')
+
+    pyautogui.vscroll(5000)
+
+    pyautogui.moveTo( x = 643, y= 359,)
+    pyautogui.click()
+    pyautogui.moveTo(y= 610,)
+
+
+    pyautogui.mouseDown(button='left', x=880, y=465,)
+    # runter bringen
+    pyautogui.moveTo(x=880, y=798,)
+    # lösen
+    pyautogui.mouseUp(button='left', x=880, y=798)
+    pyautogui.moveTo(x=569, y=570, )
+    pyautogui.click()
