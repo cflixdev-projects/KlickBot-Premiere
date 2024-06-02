@@ -13,6 +13,7 @@ zuerst lumetri farben
 muss einfache korrektur angeklickt sein
 eingabe lut
 709ee 
+test
 '''
 
 screen_width, screen_height = pyautogui.size()
