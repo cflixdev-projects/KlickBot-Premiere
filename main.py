@@ -1,5 +1,6 @@
 import pyautogui
 import time
+import keyboard
 
 '''
 1920 x 1080
@@ -15,11 +16,12 @@ eingabe lut
 709ee 
 test
 '''
+if __name__ == '__main__':
 
-screen_width, screen_height = pyautogui.size()
+    screen_width, screen_height = pyautogui.size()
 
-print("Screen width:", screen_width)
-print("Screen height:", screen_height)
+    print("Screen width:", screen_width)
+    print("Screen height:", screen_height)
 
 # try:
 #     while True:
@@ -29,6 +31,7 @@ print("Screen height:", screen_height)
 # except KeyboardInterrupt:
 #     print('Abgebrochen')
 #
+
 
 def start():
     time.sleep(3)
@@ -55,34 +58,32 @@ def start():
     # klick kreativ
     pyautogui.moveTo(x=472, y=426, )
     pyautogui.click()
-
-    # kreativ - scharf, dnymaik, sättigung
-    pyautogui.moveTo(x=1318, y=549, )
-    pyautogui.click()
-    pyautogui.write('4')
-
-    pyautogui.moveTo(x=1321, y=584, )
-    pyautogui.click()
-    pyautogui.write('8')
-
-    pyautogui.moveTo(x=1325, y=613, )
-    pyautogui.click()
-    pyautogui.write('104')
-    pyautogui.press('enter')
-
-    pyautogui.vscroll(5000)
-
-    pyautogui.moveTo( x = 643, y= 359,)
-    pyautogui.click()
-    pyautogui.moveTo(y= 610,)
-
-
-    pyautogui.mouseDown(button='left', x=880, y=465,)
-    # runter bringen
-    pyautogui.moveTo(x=880, y=798,)
-    # lösen
-    pyautogui.mouseUp(button='left', x=880, y=798)
-    pyautogui.moveTo(x=569, y=570, )
-    pyautogui.click()
-
-start()
+    #
+    # # kreativ - scharf, dnymaik, sättigung
+    # pyautogui.moveTo(x=1318, y=549, )
+    # pyautogui.click()
+    # pyautogui.write('4')
+    #
+    # pyautogui.moveTo(x=1321, y=584, )
+    # pyautogui.click()
+    # pyautogui.write('8')
+    #
+    # pyautogui.moveTo(x=1325, y=613, )
+    # pyautogui.click()
+    # pyautogui.write('104')
+    # pyautogui.press('enter')
+    #
+    # pyautogui.vscroll(5000)
+    #
+    # pyautogui.moveTo( x = 643, y= 359,)
+    # pyautogui.click()
+    # pyautogui.moveTo(y= 610,)
+    #
+    #
+    # pyautogui.mouseDown(button='left', x=880, y=465,)
+    # # runter bringen
+    # pyautogui.moveTo(x=880, y=798,)
+    # # lösen
+    # pyautogui.mouseUp(button='left', x=880, y=798)
+    # pyautogui.moveTo(x=569, y=570, )
+    # pyautogui.click()
